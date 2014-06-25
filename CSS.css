@@ -1,0 +1,75 @@
+body{
+    background-color: #00519B;
+    color: #00519B;
+    font-size: 175%;
+    font-family: 'Arial';
+    text-align: center;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: #00519B;
+}
+table{
+    width: 60%;
+    margin: 10px auto;
+}
+td{
+    background-color: white;
+    border-radius: 12.5px;
+    vertical-align: center;
+    height:100%;
+}
+.no-touch td:hover{
+    background-color: #FFFFFF;
+    opacity: 0.75;
+}
+.homeButton{
+    height: 100px;
+}
+.normal{
+    background-color: #00519B;
+    color: white;
+}
+.tdStreacher{
+    height: 100%;
+    width: 100%;
+    padding: 3px;
+}
+headerIMG{
+    height: 175px;
+    }
+.blackBox{
+   background-color: black; 
+}
+.blackBox:hover{
+    background-color: #000000;
+    opacity: 0.75;
+}
+.DBBox{
+    background-color: #00519B; color: white; border: 2px solid black;
+}
+.no-touch .DBBox:hover{
+    background-color: #000000;
+    opacity: 0.25;
+}
+.no-touch .normal:hover{
+    background-color:#00519B;
+}
+@media only screen 
+and (max-device-width : 320px) 
+and (orientation : portrait) {
+    body{
+        font-size: 300%;
+    }
+    .homeButton{
+        height: 225px;
+    }
+    table{
+    	width: 82.5%;
+    	margin: 10px auto;
+    }
+    headerIMG{
+    	height: 150px;
+    }
+}
