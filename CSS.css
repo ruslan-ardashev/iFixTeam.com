@@ -6,6 +6,10 @@ body{
     text-align: center;
     font-weight: bold;
 }
+.whiteText {
+	color: white;
+}
+
 a{
     text-decoration: none;
     color: #00519B;
